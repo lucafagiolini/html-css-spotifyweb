@@ -49,6 +49,10 @@ main ul {
     max-width: 600px;
 }
 
+#big-cotntainer {
+    overflow-y: auto;
+}
+
 li {
     width: calc(100%/6 - 15px * 5);
     min-width: fit-content;
