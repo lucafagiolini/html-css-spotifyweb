@@ -50,6 +50,7 @@ main ul {
 }
 
 #big-cotntainer {
+    width: 100%;
     overflow-y: auto;
 }
 
@@ -70,15 +71,18 @@ li {
 
 .box-row {
     display: flex;
-    flex-wrap: wrap;
+    justify-content: space-between;
     padding-top: 30px;
     gap: 10px;
+
+
 }
 
 .box {
     display: flex;
     flex-direction: column;
     width: fit-content;
+    max-width: 185px;
 
     font-weight: 400;
     font-size: xx-small;
@@ -88,9 +92,18 @@ li {
 
 .container .box img {
     width: 100%;
-    max-width: 185px;
-    height: auto;
-    object-fit: cover;
+}
+
+.container h2 {
+    text-transform: capitalize;
+}
+
+.container h4 {
+    padding-top: 5px;
+    font-weight: 300;
+    font-size: 10px;
+    color: #7b7d81;
+    font-weight: bold;
 }
 
 .container .box h3 {
@@ -107,6 +120,18 @@ li {
     font-weight: bold;
     text-transform: capitalize;
 
+}
+
+#create-for-x-row .container .box-row {
+    width: calc(100% / 3);
+}
+
+#most-popular-row .container .box-row {
+    width: calc(100% / 3);
+}
+
+#most-popular-row .container img {
+    border-radius: 50%;
 }
 
 /* end main */
@@ -127,6 +152,10 @@ nav {
 
 }
 
+nav img {
+    max-width: 125px;
+}
+
 /* end nav */
 
 
@@ -145,3 +174,8 @@ nav {
 }
 
 /* end player */
+
+
+/* -------------------- */
+/* ---- RESPONSIVE ---- */
+/* -------------------- */
