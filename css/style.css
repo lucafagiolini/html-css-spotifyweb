@@ -144,6 +144,7 @@ li {
 
 /* nav */
 nav {
+    position: relative;
     height: calc(100vh - 90px);
     min-width: 230px;
     padding: 15px 15px 0px 15px;
@@ -180,11 +181,93 @@ nav .logo {
 }
 
 #playlist h4 {
+    margin-bottom: 5px;
     font-size: 12px;
     font-weight: 400;
     color: white;
     text-transform: uppercase;
 
+}
+
+#playlist li {
+    gap: 5px;
+    margin-bottom: 12px;
+
+}
+
+#playlist .create-playlist-btn {
+    display: flex;
+    background-color: #7b7d81;
+
+}
+
+#playlist .create-playlist-btn i {
+    padding: 6px 6px 6px 6px;
+    font-size: large;
+    color: black;
+
+
+
+}
+
+#nav-footer {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: 100;
+    min-width: 230px;
+    padding: 0px 15px 0px 15px;
+    color: #7b7d81;
+
+}
+
+.download-app {
+    display: flex;
+    align-items: flex-start;
+    gap: 5px;
+    margin-bottom: 5px;
+}
+
+
+#nav-footer a {
+    color: #7b7d81;
+    list-style: none;
+
+    font-size: 11px;
+}
+
+
+#nav-footer .download-logo {
+    width: 15px;
+    filter: invert(50%) sepia(6%) saturate(221%) hue-rotate(182deg) brightness(96%) contrast(89%);
+}
+
+#nav-footer hr {
+    color: #7b7d81;
+    border-style: solid;
+    border-width: 0.2px;
+}
+
+
+
+#profile .profile-logo {
+    width: 20px;
+    border-radius: 50%;
+    background-color: #7b7d81;
+}
+
+#profile {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+#profile .profile-name {
+    font-size: 10px;
+    color: white;
+    text-transform: capitalize;
 }
 
 /* end nav */
