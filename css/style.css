@@ -243,7 +243,8 @@ nav .logo-small {
 
 
 #nav-footer .download-logo {
-    width: 15px;
+    width: 18px;
+    padding-right: 2px;
     filter: invert(50%) sepia(6%) saturate(221%) hue-rotate(182deg) brightness(96%) contrast(89%);
 }
 
