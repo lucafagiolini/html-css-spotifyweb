@@ -96,6 +96,10 @@ li {
     font-size: 11px;
 }
 
+#index a {
+    color: #7b7d81;
+}
+
 .container {
     padding: 30px 0px 30px 0px;
 }
