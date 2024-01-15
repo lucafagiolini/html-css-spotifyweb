@@ -319,6 +319,9 @@ nav .logo-small {
 
 /* player */
 #player {
+    display: flex;
+    align-items: center;
+
     position: absolute;
     bottom: 0;
     left: 0;
@@ -327,6 +330,19 @@ nav .logo-small {
     height: 90px;
     width: 100vw;
     background-color: #282828;
+}
+
+#song-features {
+    width: calc(100% / 3);
+}
+
+#song-features div:first-child {
+    display: flex;
+    align-items: center;
+}
+
+#song-features img {
+    width: 40px;
 }
 
 /* end player */
