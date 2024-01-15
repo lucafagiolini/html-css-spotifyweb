@@ -99,7 +99,6 @@
                     </div>
                 </div>
             </div>
-
             <!-- end most popular -->
         </div>
 
@@ -110,23 +109,24 @@
     <nav>
         <div>
             <img class="logo" src="./img/logo.svg" alt="">
+            <img class="logo-small" src="./img/logo-small.svg" alt="">
         </div>
         <div id="nav-index">
             <ul>
                 <li>
-                    <a href=""><img src="./img/home.svg" alt="home-img"></a>
-                    <a href="">home</a>
+                    <a href="#"><img src="./img/home.svg" alt="home-img"></a>
+                    <a class="nav-collapse" href="#">home</a>
                 </li>
                 <li>
-                    <a href=""><img src="./img/search.svg" alt="cerca-img"></a>
-                    <a href="">cerca</a>
+                    <a href="#"><img src="./img/search.svg" alt="cerca-img"></a>
+                    <a class="nav-collapse" href="#">cerca</a>
                 </li>
                 <li>
-                    <a href=""><img src="./img/libreria.svg" alt="home-img"></a>
-                    <a href="">la tua libreria</a>
+                    <a href="#"><img src="./img/libreria.svg" alt="home-img"></a>
+                    <a class="nav-collapse" href="#">la tua libreria</a>
                 </li>
             </ul>
-            <div id="playlist">
+            <div id="playlist" class="nav-collapse">
                 <h4>playlist</h4>
                 <ul>
                     <li>
@@ -141,30 +141,23 @@
                     <li>nome playlist</li>
                     <li>nome playlist</li>
                 </ul>
-
-
             </div>
-
         </div>
+
         <div id="nav-footer">
             <div class="download-app">
-                <a href=""><img class="download-logo" src="./img/download.svg" alt="download-img"></a>
-                <a href="#">Installa app</a>
+                <a href="#"><img class="download-logo" src="./img/download.svg" alt="download-img"></a>
+                <a class="nav-collapse" href="#">Installa app</a>
             </div>
-            <hr>
+            <hr class="nav-collapse">
             <div id="profile">
                 <a href="#"><img class="profile-logo" src="./img/profile.svg" alt=""></a>
-                <a href="#" class="profile-name">john doe</a>
-
+                <a class="nav-collapse profile-name" href="#">john doe</a>
             </div>
-
         </div>
-
     </nav>
 
     <div id="player">
-
-
     </div>
 </body>
 

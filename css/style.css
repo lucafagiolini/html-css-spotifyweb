@@ -157,6 +157,11 @@ nav .logo {
     padding-bottom: 15px;
 }
 
+nav .logo-small {
+    display: none;
+    padding-bottom: 15px;
+}
+
 #nav-index img {
     width: 20px;
     filter: invert(50%) sepia(6%) saturate(221%) hue-rotate(182deg) brightness(96%) contrast(89%);
@@ -266,6 +271,7 @@ nav .logo {
 
 #profile .profile-name {
     font-size: 10px;
+    font-weight: bold;
     color: white;
     text-transform: capitalize;
 }
@@ -292,11 +298,10 @@ nav .logo {
 
 /* -------------------- */
 /* ---- RESPONSIVE ---- */
+/* ------ TABLET ------ */
 /* -------------------- */
 
 @media screen and (max-width: 768px) {
-    .container {}
-
     .box-row {
         flex-direction: row;
         flex-wrap: wrap;
@@ -314,4 +319,44 @@ nav .logo {
     #most-popular-row .container .box-row {
         width: calc(100%);
     }
+}
+
+/* -------------------- */
+/* ---- RESPONSIVE ---- */
+/* ------ MOBILE ------ */
+/* -------------------- */
+
+@media screen and (max-width: 425px) {
+    nav {
+        max-width: 55px;
+        min-width: 55px;
+    }
+
+    nav .logo {
+        display: none;
+    }
+
+    nav .logo-small {
+        display: block;
+
+    }
+
+    #nav-index {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .nav-collapse {
+        display: none;
+    }
+
+    #nav-footer {
+        max-width: 55px;
+        min-width: 55px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
 }
