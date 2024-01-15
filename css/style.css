@@ -345,6 +345,36 @@ nav .logo-small {
     width: 40px;
 }
 
+#player-controls {
+    display: flex;
+    justify-content: center;
+    width: calc(100% / 3);
+
+}
+
+#box-player-controls {
+    display: flex;
+    justify-content: center;
+}
+
+#box-progress-bar {
+    display: flex;
+    align-items: center;
+}
+
+#progress-bar {
+    min-width: 425px;
+    height: 5px;
+    background-color: #7b7d81;
+    border-radius: 5px;
+}
+
+#player-tools {
+    width: calc(100% / 3);
+
+}
+
+
 /* end player */
 
 
