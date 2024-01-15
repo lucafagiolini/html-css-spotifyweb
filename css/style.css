@@ -363,7 +363,8 @@ nav .logo-small {
 }
 
 #progress-bar {
-    min-width: 425px;
+    width: 100%;
+    max-width: 425px;
     height: 5px;
     background-color: #7b7d81;
     border-radius: 5px;
@@ -372,6 +373,11 @@ nav .logo-small {
 #player-tools {
     width: calc(100% / 3);
 
+}
+
+#player-tools div {
+    display: flex;
+    justify-content: flex-end;
 }
 
 
